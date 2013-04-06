@@ -1,4 +1,4 @@
-(defproject com.ifesdjeen/cascading-cassandra "0.0.6-SNAPSHOT"
+(defproject quintona/cascading-cassandra "0.0.7-SNAPSHOT"
   :description ""
   :min-lein-version "2.0.0"
   :license {:name "Apache License 2.0"}
@@ -8,6 +8,7 @@
   :main com.ifesdjeen.cascading.cassandra.core
   :java-source-paths ["src/main/java"]
   :test-paths        ["src/test"]
+  :source-paths        ["src/clj"]
   :profiles {:dev {:resource-paths     ["src/resources"]
                    :dependencies [[org.clojure/clojure "1.4.0"]
                                   [clojurewerkz/cassaforte "1.0.0-beta11-SNAPSHOT"]
